@@ -1,0 +1,747 @@
+*{
+    text-decoration: none;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 420px;
+    align-items: center;
+    background-color: #fafafa;
+    z-index: 99;
+}
+.sidebar {
+    background-color: white;
+    opacity: 90%;
+    width: 430px;
+    height: 100%;
+    position: fixed;
+    z-index: 2000;
+    transform: translateX(-430px);
+    transition: transform 430ms ease-in-out;
+}
+.Paradise {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 150px;
+}
+.Aaru {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 200px;
+}
+.Buddhism {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 250px;
+}
+
+.Valhalla{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 300px;
+}
+.Magmell {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 350px;
+}
+.Heaven {
+    color: #000;;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 400px;
+}
+.Elysion {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    text-align: left;
+    position: fixed;
+    width: 144px;
+    height: 14px;
+    left: 47px;
+    top: 450px;
+}
+
+.bar-top {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+.bar-center {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1.5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bar-bottom {
+    background-color: rgb(0, 0, 0);
+    width: 12px;
+    height: 1.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.toggle-icon {
+    position: absolute;
+    top: 70px;
+    left: 47px;
+    width: 12px;
+    height: 12px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.toggle-sidebar {
+    display: none;
+    top: 89.2px;
+    left: 47px;
+}
+input[type="checkbox"]:checked ~.sidebar {
+    transform: translateX(0);
+}
+input[type="checkbox"]:checked ~.toggle-icon >.bar-top {
+    transform: rotate(45deg);
+    opacity: 100%;
+    margin-top: 1px;
+}
+input[type="checkbox"]:checked ~.toggle-icon >.bar-center {
+    opacity: 0;
+}
+input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
+    transform: rotate(-45deg);
+    opacity: 100%;
+    margin-top: -3px;
+}
+
+
+.header2{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    width: 400x;
+    height: 930px;
+    background-color: none;
+    z-index: 99;
+}
+#headerText {
+    position: fixed;
+    top: 12rem;
+    left: 45vmin;
+    background-color: none;
+    border: 0;
+    object-fit: contain;
+    width: 229px;
+    height: 58px;
+    font-family: VenusSB-Medium;
+    font-size: 55px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.91;
+    letter-spacing: 2.75px;
+    text-align: left;
+    color: #000;
+    z-index: 999;
+}
+.v-line {
+    border-left : medium solid #000;
+    height : 100px;
+    top: 18rem;
+    left: 70vmin;
+    min-width: 40vmin;
+    position: fixed;
+    z-index: 999;
+}
+.text-box1-4 {
+    position: fixed;
+    top: 60px;
+    left: 40%;
+    background-color: none;
+    border: 0;
+    object-fit: contain; 
+    z-index: 1000;
+}
+.text-style1-4 {
+    width: 42px;
+    height: 18px;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.89;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #000;
+}
+.headerText2 {
+    position: fixed;
+    top: 60px;
+    left: 55% ;
+    background-color: none;
+    border: 0;
+    object-fit: contain; 
+    width: 71px;
+    height: 18px;
+    font-family: Godfrey;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.89;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #000;
+    z-index: 1000;
+}
+.hr1-2 {
+    position: fixed;
+    top: 70px;
+    left: 46.5%;
+    width: 40px;
+    height: 1.5px;
+    margin: 6.3px 5px 10.3px;
+    background-color: #000;
+    z-index: 1000;
+}
+.icon {
+    position:fixed;
+    top: 70px;
+    right: 50px;
+    width: 1rem;
+    height: auto;
+    z-index: 1000;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+
+
+.section {
+    width: 1920px;
+    height: 800px;
+    clear: both;
+    background-color: #fafafa;
+}
+
+파라다이스
+.section1 {
+    background-color: #fafafa;
+}
+.text-box1 {
+    position: absolute;
+    top: 35rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style {
+    color: #393939;
+    text-align: left;
+    font-family: Sandoll 고딕Neo1;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.pd {
+    position: absolute;
+    top: 50rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    width: 500px;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-box2 {
+    position: absolute;
+    top: 63rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style2 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+아아루
+.section2 {
+    background-color: #fafafa;
+}
+.text-box3 {
+    position: absolute;
+    top: 85rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style3 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.aaru {
+    position: absolute;
+    top: 100rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-box4 {
+    position: absolute;
+    top: 112rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style4 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+
+극락
+.section3 {
+    background-color: #fafafa;
+}
+.text-box5 {
+    position: absolute;
+    top: 132rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style5 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.rock {
+    position: absolute;
+    top: 147rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-box6 {
+    position: absolute;
+    top: 160em;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style6 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+
+발할라
+.section4 {
+    background-color: #fafafa;
+}
+.text-box7 {
+    position: absolute;
+    top: 182rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style7 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.Valhalla {
+    position: absolute;
+    top: 197rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    width: 500px;
+    height: auto;
+}
+
+.text-box8 {
+    position: absolute;
+    top: 211rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style8 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+
+마그멜
+.section5 {
+    background-color: #fafafa;
+}
+.text-box9 {
+    position: absolute;
+    top: 233rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style9 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.mag {
+    position: absolute;
+    top: 247rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    width: 500px;
+    height: auto;
+}
+
+.text-box10 {
+    position: absolute;
+    top: 260rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style10 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+
+천국
+.section6 {
+    background-color: #fafafa;
+}
+.text-box11 {
+    position: absolute;
+    top: 282rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style11 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.heaven {
+    position: absolute;
+    top: 297.5rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    width: 500px;
+    height: auto;
+}
+
+.text-box12 {
+    position: absolute;
+    top: 310rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style12 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+엘리시온
+.section7 {
+    background-color: #fafafa;
+    height: 5000px;
+}
+.text-box13 {
+    position: absolute;
+    top: 332rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+}
+
+.text-style13 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: medium;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
+
+.ely{
+    position: absolute;
+    top: 347rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    width: 500px;
+    height: auto;
+}
+
+.text-box14 {
+    position: absolute;
+    top: 359rem;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 1rem;
+    width: 550px;
+    height: auto;
+}
+
+.text-style14 {
+    color: #393939;
+    text-align: left;
+    font-family: JJGothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: -0.946px;
+    margin: 0px;
+}
