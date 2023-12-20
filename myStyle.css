@@ -10,7 +10,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 420px;
     align-items: center;
     background-color: #fafafa;
@@ -22,7 +22,7 @@
     width: 430px;
     height: 100%;
     position: fixed;
-    z-index: 2000;
+    z-index: 100;
     transform: translateX(-430px);
     transition: transform 430ms ease-in-out;
 }
@@ -185,6 +185,7 @@
     display: none;
     top: 89.2px;
     left: 47px;
+    z-index: 95;
 }
 input[type="checkbox"]:checked ~.sidebar {
     transform: translateX(0);
@@ -208,15 +209,15 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     position: fixed;
     top: 150px;
     left: 0px;
-    width: 400x;
+    width: 100%;
     height: 930px;
     background-color: none;
-    z-index: 99;
+    z-index: 80;
 }
 #headerText {
     position: fixed;
     top: 12rem;
-    left: 45vmin;
+    left: 25%;
     background-color: none;
     border: 0;
     object-fit: contain;
@@ -231,16 +232,15 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     letter-spacing: 2.75px;
     text-align: left;
     color: #000;
-    z-index: 999;
+    z-index: 99;
 }
 .v-line {
     border-left : medium solid #000;
-    height : 100px;
-    top: 18rem;
-    left: 70vmin;
-    min-width: 40vmin;
+    height : 150px;
+    top: 16rem;
+    left: 39%;
     position: fixed;
-    z-index: 999;
+    z-index: 99;
 }
 .text-box1-4 {
     position: fixed;
@@ -312,7 +312,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
 
 
 .section {
-    width: 1920px;
+    width: 100%;
     height: 800px;
     clear: both;
     background-color: #fafafa;
@@ -328,8 +328,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -352,8 +351,6 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
     width: 500px;
-    max-width: 500px;
-    min-width: 400px;
     height: auto;
 }
 
@@ -363,8 +360,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -390,8 +386,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -413,8 +408,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -424,8 +418,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -452,8 +445,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -475,8 +467,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -486,8 +477,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -514,8 +504,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -547,8 +536,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -575,8 +563,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -608,8 +595,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -636,8 +622,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -669,8 +654,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -697,8 +681,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -730,8 +713,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -745,4 +727,84 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     line-height: 25px;
     letter-spacing: -0.946px;
     margin: 0px;
+}
+
+@media all and (max-width: 480px) {
+    .section{
+        width: 100%;
+        height:1000px;
+        clear: both;
+        background-color: #fafafa;
+    }
+    .section1, .section2, .section4, .section5{
+        width: 100%;
+        height: 800px;
+    }
+    .section3{
+        width: 100%;
+        height: 800px;
+    }
+    .section6{
+        width: 100%;
+        height: 900px;
+    }
+    .header{
+        width: 100%;
+        height: 250px;
+        z-index: 80;
+        background-color: #fafafa;
+        position: fixed;
+    }
+    .header2{
+        width: 100%;
+        height: 5rem;
+        position: fixed;
+        z-index: 90;
+    }
+    .sidebar{
+        position: fixed;
+        z-index: 95;
+    }
+    .toggle-sidebar{
+        position: fixed;
+        z-index: 95;
+    }
+    #headerText {
+        width: 100%;
+        left: 5rem;
+        position: fixed;
+        z-index:90;
+    }
+    .text-box1-4{
+        position: fixed;
+        left: 8rem;
+    }
+    .hr1-2{
+        position: fixed;
+        left: 11.2rem;
+    }
+    .headerText2{
+        position: fixed;
+        left: 15rem;
+    }
+    .icon {
+        position: fixed;
+        left: 23rem;
+    }
+    .v-line {
+        left: 10vmax;
+        display: none;
+    }
+    .text-box1, .text-box2, .text-box3, .text-box4, .text-box5, .text-box6, .text-box7, .text-box8, .text-box9, .text-box10, .text-box11, .text-box12, .text-box13, .text-box14 {
+        left: 14rem;
+        width: 280px;
+        height: auto;
+    }
+    .pd, .aaru, .rock, .Valhalla, .mag, .heaven, .ely {
+        padding: 10rem;
+        left: 14rem;
+        width: 290px;
+        height: auto;
+    }
+    
 }
